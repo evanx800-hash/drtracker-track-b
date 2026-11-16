@@ -1,0 +1,62 @@
+[
+  {
+    "patient_id": "P01",
+    "display_name": "James C.",
+    "age": 58,
+    "diagnosis": "Oral cavity cancer",
+    "regimen": "Radiation (33 sessions) + weekly cisplatin",
+    "treatment_start": "2026-10-20",
+    "baseline_weight_lb": 172.0,
+    "alert_line_lb": 165.0,
+    "last_visit_date": "2026-11-06",
+    "synthetic_note": "Modeled on the demo patient: below the 165 lb alert line by day 25."
+  },
+  {
+    "patient_id": "P02",
+    "display_name": "Maria R.",
+    "age": 64,
+    "diagnosis": "Oral cavity cancer",
+    "regimen": "Radiation (33 sessions) + weekly cisplatin",
+    "treatment_start": "2026-09-26",
+    "baseline_weight_lb": 148.0,
+    "alert_line_lb": 140.0,
+    "last_visit_date": "2026-11-06",
+    "synthetic_note": "Completed course; severe mouth sores; oxycodone started week 4."
+  },
+  {
+    "patient_id": "P03",
+    "display_name": "Robert K.",
+    "age": 61,
+    "diagnosis": "Oral cavity cancer",
+    "regimen": "Radiation (33 sessions) + weekly cisplatin",
+    "treatment_start": "2026-10-03",
+    "baseline_weight_lb": 196.0,
+    "alert_line_lb": 186.0,
+    "last_visit_date": "2026-11-06",
+    "synthetic_note": "Nausea-heavy; olanzapine added on day 16 alongside ondansetron."
+  },
+  {
+    "patient_id": "P04",
+    "display_name": "Linda M.",
+    "age": 55,
+    "diagnosis": "Oral cavity cancer",
+    "regimen": "Radiation (33 sessions) + weekly cisplatin",
+    "treatment_start": "2026-10-10",
+    "baseline_weight_lb": 135.0,
+    "alert_line_lb": 128.0,
+    "last_visit_date": "2026-11-06",
+    "synthetic_note": "Mild course, very consistent check-ins."
+  },
+  {
+    "patient_id": "P05",
+    "display_name": "David O.",
+    "age": 67,
+    "diagnosis": "Oral cavity cancer",
+    "regimen": "Radiation (33 sessions) + weekly cisplatin",
+    "treatment_start": "2026-10-07",
+    "baseline_weight_lb": 181.0,
+    "alert_line_lb": 172.0,
+    "last_visit_date": "2026-11-06",
+    "synthetic_note": "Irregular check-ins, vague free text, a 3-day gap, one fever day."
+  }
+]

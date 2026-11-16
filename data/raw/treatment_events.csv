@@ -1,0 +1,164 @@
+patient_id,date,type,detail
+P01,2026-10-20,radiation,session 1 of 33
+P01,2026-10-21,radiation,session 2 of 33
+P01,2026-10-22,radiation,session 3 of 33
+P01,2026-10-23,radiation,session 4 of 33
+P01,2026-10-26,radiation,session 5 of 33
+P01,2026-10-27,radiation,session 6 of 33
+P01,2026-10-28,radiation,session 7 of 33
+P01,2026-10-29,radiation,session 8 of 33
+P01,2026-10-30,radiation,session 9 of 33
+P01,2026-11-02,radiation,session 10 of 33
+P01,2026-11-03,radiation,session 11 of 33
+P01,2026-11-04,radiation,session 12 of 33
+P01,2026-11-05,radiation,session 13 of 33
+P01,2026-11-06,radiation,session 14 of 33
+P01,2026-11-09,radiation,session 15 of 33
+P01,2026-11-10,radiation,session 16 of 33
+P01,2026-11-11,radiation,session 17 of 33
+P01,2026-11-12,radiation,session 18 of 33
+P01,2026-11-13,radiation,session 19 of 33
+P01,2026-10-20,cisplatin,weekly dose 1
+P01,2026-10-27,cisplatin,weekly dose 2
+P01,2026-11-03,cisplatin,weekly dose 3
+P01,2026-11-10,cisplatin,weekly dose 4
+P02,2026-09-28,radiation,session 1 of 33
+P02,2026-09-29,radiation,session 2 of 33
+P02,2026-09-30,radiation,session 3 of 33
+P02,2026-10-01,radiation,session 4 of 33
+P02,2026-10-02,radiation,session 5 of 33
+P02,2026-10-05,radiation,session 6 of 33
+P02,2026-10-06,radiation,session 7 of 33
+P02,2026-10-07,radiation,session 8 of 33
+P02,2026-10-08,radiation,session 9 of 33
+P02,2026-10-09,radiation,session 10 of 33
+P02,2026-10-12,radiation,session 11 of 33
+P02,2026-10-13,radiation,session 12 of 33
+P02,2026-10-14,radiation,session 13 of 33
+P02,2026-10-15,radiation,session 14 of 33
+P02,2026-10-16,radiation,session 15 of 33
+P02,2026-10-19,radiation,session 16 of 33
+P02,2026-10-20,radiation,session 17 of 33
+P02,2026-10-21,radiation,session 18 of 33
+P02,2026-10-22,radiation,session 19 of 33
+P02,2026-10-23,radiation,session 20 of 33
+P02,2026-10-26,radiation,session 21 of 33
+P02,2026-10-27,radiation,session 22 of 33
+P02,2026-10-28,radiation,session 23 of 33
+P02,2026-10-29,radiation,session 24 of 33
+P02,2026-10-30,radiation,session 25 of 33
+P02,2026-11-02,radiation,session 26 of 33
+P02,2026-11-03,radiation,session 27 of 33
+P02,2026-11-04,radiation,session 28 of 33
+P02,2026-11-05,radiation,session 29 of 33
+P02,2026-11-06,radiation,session 30 of 33
+P02,2026-11-09,radiation,session 31 of 33
+P02,2026-11-10,radiation,session 32 of 33
+P02,2026-11-11,radiation,session 33 of 33
+P02,2026-09-26,cisplatin,weekly dose 1
+P02,2026-10-03,cisplatin,weekly dose 2
+P02,2026-10-10,cisplatin,weekly dose 3
+P02,2026-10-17,cisplatin,weekly dose 4
+P02,2026-10-24,cisplatin,weekly dose 5
+P02,2026-10-31,cisplatin,weekly dose 6
+P02,2026-11-07,cisplatin,weekly dose 7
+P03,2026-10-05,radiation,session 1 of 33
+P03,2026-10-06,radiation,session 2 of 33
+P03,2026-10-07,radiation,session 3 of 33
+P03,2026-10-08,radiation,session 4 of 33
+P03,2026-10-09,radiation,session 5 of 33
+P03,2026-10-12,radiation,session 6 of 33
+P03,2026-10-13,radiation,session 7 of 33
+P03,2026-10-14,radiation,session 8 of 33
+P03,2026-10-15,radiation,session 9 of 33
+P03,2026-10-16,radiation,session 10 of 33
+P03,2026-10-19,radiation,session 11 of 33
+P03,2026-10-20,radiation,session 12 of 33
+P03,2026-10-21,radiation,session 13 of 33
+P03,2026-10-22,radiation,session 14 of 33
+P03,2026-10-23,radiation,session 15 of 33
+P03,2026-10-26,radiation,session 16 of 33
+P03,2026-10-27,radiation,session 17 of 33
+P03,2026-10-28,radiation,session 18 of 33
+P03,2026-10-29,radiation,session 19 of 33
+P03,2026-10-30,radiation,session 20 of 33
+P03,2026-11-02,radiation,session 21 of 33
+P03,2026-11-03,radiation,session 22 of 33
+P03,2026-11-04,radiation,session 23 of 33
+P03,2026-11-05,radiation,session 24 of 33
+P03,2026-11-06,radiation,session 25 of 33
+P03,2026-11-09,radiation,session 26 of 33
+P03,2026-11-10,radiation,session 27 of 33
+P03,2026-11-11,radiation,session 28 of 33
+P03,2026-11-12,radiation,session 29 of 33
+P03,2026-11-13,radiation,session 30 of 33
+P03,2026-10-03,cisplatin,weekly dose 1
+P03,2026-10-10,cisplatin,weekly dose 2
+P03,2026-10-17,cisplatin,weekly dose 3
+P03,2026-10-24,cisplatin,weekly dose 4
+P03,2026-10-31,cisplatin,weekly dose 5
+P03,2026-11-07,cisplatin,weekly dose 6
+P04,2026-10-12,radiation,session 1 of 33
+P04,2026-10-13,radiation,session 2 of 33
+P04,2026-10-14,radiation,session 3 of 33
+P04,2026-10-15,radiation,session 4 of 33
+P04,2026-10-16,radiation,session 5 of 33
+P04,2026-10-19,radiation,session 6 of 33
+P04,2026-10-20,radiation,session 7 of 33
+P04,2026-10-21,radiation,session 8 of 33
+P04,2026-10-22,radiation,session 9 of 33
+P04,2026-10-23,radiation,session 10 of 33
+P04,2026-10-26,radiation,session 11 of 33
+P04,2026-10-27,radiation,session 12 of 33
+P04,2026-10-28,radiation,session 13 of 33
+P04,2026-10-29,radiation,session 14 of 33
+P04,2026-10-30,radiation,session 15 of 33
+P04,2026-11-02,radiation,session 16 of 33
+P04,2026-11-03,radiation,session 17 of 33
+P04,2026-11-04,radiation,session 18 of 33
+P04,2026-11-05,radiation,session 19 of 33
+P04,2026-11-06,radiation,session 20 of 33
+P04,2026-11-09,radiation,session 21 of 33
+P04,2026-11-10,radiation,session 22 of 33
+P04,2026-11-11,radiation,session 23 of 33
+P04,2026-11-12,radiation,session 24 of 33
+P04,2026-11-13,radiation,session 25 of 33
+P04,2026-10-10,cisplatin,weekly dose 1
+P04,2026-10-17,cisplatin,weekly dose 2
+P04,2026-10-24,cisplatin,weekly dose 3
+P04,2026-10-31,cisplatin,weekly dose 4
+P04,2026-11-07,cisplatin,weekly dose 5
+P05,2026-10-07,radiation,session 1 of 33
+P05,2026-10-08,radiation,session 2 of 33
+P05,2026-10-09,radiation,session 3 of 33
+P05,2026-10-12,radiation,session 4 of 33
+P05,2026-10-13,radiation,session 5 of 33
+P05,2026-10-14,radiation,session 6 of 33
+P05,2026-10-15,radiation,session 7 of 33
+P05,2026-10-16,radiation,session 8 of 33
+P05,2026-10-19,radiation,session 9 of 33
+P05,2026-10-20,radiation,session 10 of 33
+P05,2026-10-21,radiation,session 11 of 33
+P05,2026-10-22,radiation,session 12 of 33
+P05,2026-10-23,radiation,session 13 of 33
+P05,2026-10-26,radiation,session 14 of 33
+P05,2026-10-27,radiation,session 15 of 33
+P05,2026-10-28,radiation,session 16 of 33
+P05,2026-10-29,radiation,session 17 of 33
+P05,2026-10-30,radiation,session 18 of 33
+P05,2026-11-02,radiation,session 19 of 33
+P05,2026-11-03,radiation,session 20 of 33
+P05,2026-11-04,radiation,session 21 of 33
+P05,2026-11-05,radiation,session 22 of 33
+P05,2026-11-06,radiation,session 23 of 33
+P05,2026-11-09,radiation,session 24 of 33
+P05,2026-11-10,radiation,session 25 of 33
+P05,2026-11-11,radiation,session 26 of 33
+P05,2026-11-12,radiation,session 27 of 33
+P05,2026-11-13,radiation,session 28 of 33
+P05,2026-10-07,cisplatin,weekly dose 1
+P05,2026-10-14,cisplatin,weekly dose 2
+P05,2026-10-21,cisplatin,weekly dose 3
+P05,2026-10-28,cisplatin,weekly dose 4
+P05,2026-11-04,cisplatin,weekly dose 5
+P05,2026-11-11,cisplatin,weekly dose 6

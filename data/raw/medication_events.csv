@@ -1,0 +1,10 @@
+patient_id,date,medication,event_type,dose,note
+P01,2026-10-20,ondansetron,start,8 mg PRN,with cisplatin
+P02,2026-09-26,ondansetron,start,8 mg PRN,with cisplatin
+P02,2026-10-05,lidocaine_rinse,start,15 mL before meals,
+P02,2026-10-19,oxycodone,start,5 mg q6h PRN,pain >= 6 two days running
+P03,2026-10-03,ondansetron,start,8 mg PRN,with cisplatin
+P03,2026-10-18,olanzapine,start,5 mg nightly,added for breakthrough nausea
+P04,2026-10-10,ondansetron,start,8 mg PRN,with cisplatin
+P05,2026-10-07,ondansetron,start,8 mg PRN,with cisplatin
+P05,2026-10-26,lidocaine_rinse,start,15 mL before meals,
