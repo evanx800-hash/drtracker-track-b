@@ -1,0 +1,129 @@
+set,report_id,text,error,symptom,gold,predicted
+generated,P01-01-TM,"Mild pain, nothing major. trying to drink more water. so nauseous i couldnt eat",intensity,nausea,severe,None
+generated,P01-01-TM,"Mild pain, nothing major. trying to drink more water. so nauseous i couldnt eat",intensity,pain,mild,None
+generated,P01-01-TM,"Mild pain, nothing major. trying to drink more water. so nauseous i couldnt eat",extra (not in gold),vomiting,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""so nauseous i couldnt eat""}"
+generated,P01-03-TE,"So tired, trying to drink more water, got sick once after lunch, nauseous on and off",intensity,nausea,moderate,None
+generated,P01-03-TE,"So tired, trying to drink more water, got sick once after lunch, nauseous on and off",count,vomiting,1,None
+generated,P01-14-TM,some redness in my mouth,intensity,mouth_sores,mild,None
+generated,P01-17-TM,Took a zofran. pretty nauseous. sres in my mouth are pretty bad,intensity,mouth_sores,moderate,None
+generated,P01-21-TE,throat really hurts,intensity,pain,moderate,None
+generated,P01-25-TM,Mouth sores getting worse. stomach's been fine. pain around 4,intensity,mouth_sores,moderate,None
+generated,P01-25-TM,Mouth sores getting worse. stomach's been fine. pain around 4,number,pain,4,None
+generated,P01-25-TM,Mouth sores getting worse. stomach's been fine. pain around 4,extra (not in gold),swallowing,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""stomach's been fine""}"
+generated,P02-04-TE,"Long day, took a zofran, didnt throw up, felt sick to my stomach most of the day",extra (not in gold),general_unwell,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""Long day""}"
+generated,P02-13-TM,slept baly,extra (not in gold),general_unwell,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""slept baly""}"
+generated,P02-18-TM,"Nausea was horrible, long day",extra (not in gold),general_unwell,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""long day""}"
+generated,P02-21-TM,Can't swallow anything. sores so bad i can barely drink,intensity,mouth_sores,severe,None
+generated,P02-22-TE,Sores so bad i can barely drink and trying to drink more water,extra (not in gold),swallowing,,"{""present"": true, ""intensity"": ""moderate"", ""count"": null, ""evidence"": ""i can barely drink""}"
+generated,P02-29-TM,food tastes off. only managing shaes and liquids. so tired,intensity,swallowing,moderate,None
+generated,P02-30-TM,"Used the magic mouthwash before eating, can only get liquids down, mouth sores are killing me",intensity,swallowing,moderate,severe
+generated,P02-32-TM,stomachs been fine and puked once overnight,missed,nausea,"{""symptom"": ""nausea"", ""present"": false, ""intensity"": ""none"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P02-32-TM,stomachs been fine and puked once overnight,count,vomiting,1,None
+generated,P02-32-TM,stomachs been fine and puked once overnight,day,vomiting,-1,0
+generated,P02-34-TM,The oxy takes the edge off. radiation went ok. couldn't even get water down. pain at like 7 out of 10,missed,swallowing,"{""symptom"": ""swallowing"", ""present"": true, ""intensity"": ""severe"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P02-34-TM,The oxy takes the edge off. radiation went ok. couldn't even get water down. pain at like 7 out of 10,extra (not in gold),vomiting,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""couldn't even get water down""}"
+generated,P02-35-TE,only managing shakes and liquids. sores so bad i can barely drink,intensity,mouth_sores,severe,None
+generated,P02-35-TE,only managing shakes and liquids. sores so bad i can barely drink,intensity,swallowing,moderate,None
+generated,P02-37-TM,"Mouth is raw, sores everywhere. couldnt even get water down. nauseous on and off when i woke up",intensity,nausea,moderate,None
+generated,P02-37-TM,"Mouth is raw, sores everywhere. couldnt even get water down. nauseous on and off when i woke up",intensity,mouth_sores,severe,None
+generated,P02-37-TM,"Mouth is raw, sores everywhere. couldnt even get water down. nauseous on and off when i woke up",intensity,swallowing,severe,None
+generated,P02-39-TE,"Mouth is raw, sores everywhere. throat really hurts. dry mouth again. the oxy takes the edge off",intensity,pain,moderate,None
+generated,P02-39-TE,"Mouth is raw, sores everywhere. throat really hurts. dry mouth again. the oxy takes the edge off",intensity,mouth_sores,severe,None
+generated,P02-45-TE,"mouth is raw, sores everywhere, cant swallow anything",intensity,swallowing,severe,None
+generated,P02-45-TE,"mouth is raw, sores everywhere, cant swallow anything",intensity,mouth_sores,severe,None
+generated,P02-47-TM,"The oxy takes the edge off, couldnt even get water down, constantly sipping water, mouth is dry, mouth is raw, sores everywhere",intensity,swallowing,severe,None
+generated,P02-47-TM,"The oxy takes the edge off, couldnt even get water down, constantly sipping water, mouth is dry, mouth is raw, sores everywhere",intensity,mouth_sores,severe,None
+generated,P02-47-TM,"The oxy takes the edge off, couldnt even get water down, constantly sipping water, mouth is dry, mouth is raw, sores everywhere",extra (not in gold),vomiting,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""couldnt even get water down""}"
+generated,P02-49-TM,Couldnt even get water down and sores so bad i can barely drink and pain around 6,intensity,mouth_sores,severe,None
+generated,P03-03-TM,nausea was horrible. threw up three times when i woke up,count,vomiting,3,None
+generated,P03-03-TM,nausea was horrible. threw up three times when i woke up,intensity,nausea,severe,None
+generated,P03-03-TM,nausea was horrible. threw up three times when i woke up,extra (not in gold),vomiting,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""threw up three times when i woke up""}"
+generated,P03-03-TM,nausea was horrible. threw up three times when i woke up,extra (not in gold),vomiting,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""threw up three times when i woke up""}"
+generated,P03-08-TM,Pain is a 3//10. slept badly. felt sick to my stomach most of the day. some redness in my mouth,intensity,mouth_sores,mild,None
+generated,P03-08-TM,Pain is a 3//10. slept badly. felt sick to my stomach most of the day. some redness in my mouth,intensity,nausea,moderate,None
+generated,P03-11-TE,Some redness in my mouth,intensity,mouth_sores,mild,None
+generated,P03-12-TE,Swallowing is getting harder. did the salt rinse,intensity,swallowing,mild,None
+generated,P03-27-TM,So tired. mouth sores getting worse,intensity,mouth_sores,moderate,None
+generated,P03-32-TM,Bit of nausea and sores so bad i can barely drink and spit is super thick,intensity,nausea,mild,None
+generated,P03-32-TM,Bit of nausea and sores so bad i can barely drink and spit is super thick,intensity,mouth_sores,severe,None
+generated,P03-33-TM,the new nausea pill seems to be helping. sores so bad i can barely drink. pain is pretty constant,intensity,pain,moderate,None
+generated,P03-33-TM,the new nausea pill seems to be helping. sores so bad i can barely drink. pain is pretty constant,intensity,mouth_sores,severe,None
+generated,P03-35-TM,"everything tastes like metal. constantly spping water, mouth is dry. can only get lquids down. so tired",intensity,swallowing,moderate,None
+generated,P03-35-TM,"everything tastes like metal. constantly spping water, mouth is dry. can only get lquids down. so tired",extra (not in gold),vomiting,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""constantly spitting water""}"
+generated,P03-37-TE,"puked once tonight, mouth is raw, sores everywhere, took a zofran, worst pain yet",intensity,mouth_sores,severe,None
+generated,P03-37-TE,"puked once tonight, mouth is raw, sores everywhere, took a zofran, worst pain yet",extra (not in gold),nausea,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""puked once tonight""}"
+generated,P03-37-TE,"puked once tonight, mouth is raw, sores everywhere, took a zofran, worst pain yet",extra (not in gold),vomiting,,"{""present"": true, ""intensity"": null, ""count"": 1, ""evidence"": ""puked once tonight""}"
+generated,P03-38-TM,"Mouth is raw, sores everywhere and pretty nauseous and appointment ran late",intensity,mouth_sores,severe,None
+generated,P03-38-TM,"Mouth is raw, sores everywhere and pretty nauseous and appointment ran late",intensity,nausea,moderate,None
+generated,P03-41-TM,mouth so dry and so tired and long day and can only get liquids down,intensity,swallowing,moderate,None
+generated,P03-42-TM,Dry mouth again. radiation went ok. only mannaging shakes and liquids,missed,swallowing,"{""symptom"": ""swallowing"", ""present"": true, ""intensity"": ""moderate"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P04-04-TM,Bit of nausea when i woke up,intensity,nausea,mild,None
+generated,P04-09-TM,bit of nausea,intensity,nausea,mild,None
+generated,P04-15-TM,Some redness in my mouth. stomach a little unsettled when i woke up,intensity,mouth_sores,mild,None
+generated,P04-15-TM,Some redness in my mouth. stomach a little unsettled when i woke up,missed,nausea,"{""symptom"": ""nausea"", ""present"": true, ""intensity"": ""mild"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": ""morning""}",
+generated,P05-07-TE,Long day and no pain today and not great today,missed,general_unwell,"{""symptom"": ""general_unwell"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P05-09-TM,Worst nausea so far when i woke up and zofriin helped a bit and vomited once last night,extra (not in gold),nausea,,"{""present"": true, ""intensity"": ""severe"", ""count"": null, ""evidence"": ""Worst nausea so far""}"
+generated,P05-11-TM,Some redness in my mouh. not great today,intensity,mouth_sores,mild,None
+generated,P05-11-TM,Some redness in my mouh. not great today,missed,general_unwell,"{""symptom"": ""general_unwell"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P05-16-TM,A little achy. felt sick to my stomach most of the day. did the salt rinse,intensity,pain,mild,None
+generated,P05-16-TM,A little achy. felt sick to my stomach most of the day. did the salt rinse,intensity,nausea,moderate,None
+generated,P05-21-TE,"Rough day, throat really hurts, used the magic mouthwash before eating",intensity,pain,moderate,None
+generated,P05-21-TE,"Rough day, throat really hurts, used the magic mouthwash before eating",missed,general_unwell,"{""symptom"": ""general_unwell"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+generated,P05-22-TM,a little queasy. used the magic mouthwash before eating. mouth so dry,extra (not in gold),mouth_sores,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""used the magic mouthwash before eating""}"
+generated,P05-22-TM,a little queasy. used the magic mouthwash before eating. mouth so dry,extra (not in gold),taste_change,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""used the magic mouthwash before eating""}"
+generated,P05-24-TM,took my zofran. mouth sores getting worse. got sick twice. rough day,intensity,mouth_sores,moderate,None
+generated,P05-24-TM,took my zofran. mouth sores getting worse. got sick twice. rough day,count,vomiting,2,None
+generated,P05-24-TM,took my zofran. mouth sores getting worse. got sick twice. rough day,extra (not in gold),nausea,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""got sick twice""}"
+generated,P05-25-TM,Took a zofran. feel kinda off. pretty nauseous. swwallowing is getting harder. did the salt rinse,intensity,nausea,moderate,None
+generated,P05-25-TM,Took a zofran. feel kinda off. pretty nauseous. swwallowing is getting harder. did the salt rinse,intensity,swallowing,mild,None
+generated,P05-25-TM,Took a zofran. feel kinda off. pretty nauseous. swwallowing is getting harder. did the salt rinse,extra (not in gold),mouth_sores,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""did the salt rinse""}"
+generated,P05-33-TM,just feeling blah and worst pain yet in the night and only managing shakes and liquids,intensity,pain,severe,None
+generated,P05-33-TM,just feeling blah and worst pain yet in the night and only managing shakes and liquids,day,pain,-1,0
+generated,P05-33-TM,just feeling blah and worst pain yet in the night and only managing shakes and liquids,intensity,swallowing,moderate,None
+generated,P05-34-TM,"Wiped out after radiation, just feeling blaah, swallowing is getting harder, slept badly",intensity,swallowing,mild,None
+generated,P05-34-TM,"Wiped out after radiation, just feeling blaah, swallowing is getting harder, slept badly",extra (not in gold),fever,,"{""present"": false, ""intensity"": null, ""count"": null, ""evidence"": ""slept badly""}"
+generated,P05-35-TM,"thick mucus in my throatt. constantly sipping water, mouth is dry. cant swallow anything",wrong present/absent,swallowing,"{""symptom"": ""swallowing"", ""present"": true, ""intensity"": ""severe"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}","{""symptom"": ""swallowing"", ""present"": false, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null, ""evidence"": ""cant swallow anything"", ""confidence"": 0.9, ""method"": ""llm:qwen2.5:7b"", ""review_status"": ""needs_review"", ""review_reason"": ""rule parser disagrees on present/absent""}"
+generated,P05-35-TM,"thick mucus in my throatt. constantly sipping water, mouth is dry. cant swallow anything",intensity,swallowing,severe,None
+generated,P05-38-TM,Worst nausea so far and spit is super thick and radiation went ok and mouth sores are killing me,extra (not in gold),swallowing,,"{""present"": true, ""intensity"": ""severe"", ""count"": null, ""evidence"": ""mouth sores are killing me""}"
+hard_dev,H01,No vomiting but nauseous all morning,intensity,nausea,moderate,None
+hard_dev,H03,Threw up twice last night and once this morning,count,vomiting,2,None
+hard_dev,H03,Threw up twice last night and once this morning,day,vomiting,-1,0
+hard_dev,H03,Threw up twice last night and once this morning,count,vomiting,1,None
+hard_dev,H07,"Pain is like a 7 today, the oxy barely helps",extra (not in gold),pain,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""the oxy barely helps""}"
+hard_dev,H07,"Pain is like a 7 today, the oxy barely helps",extra (not in gold),pain,,"{""present"": true, ""intensity"": ""moderate"", ""count"": null, ""evidence"": ""Pain is like a 7 today""}"
+hard_dev,H09,Is it normal to have white patches on my tongue?,missed,mouth_sores,"{""symptom"": ""mouth_sores"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+hard_dev,H10,"Mouth sores better today, can eat soft stuff again",wrong present/absent,mouth_sores,"{""symptom"": ""mouth_sores"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}","{""symptom"": ""mouth_sores"", ""present"": false, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null, ""evidence"": ""Mouth sores better today"", ""confidence"": 0.9, ""method"": ""llm:qwen2.5:7b"", ""review_status"": ""needs_review"", ""review_reason"": ""rule parser disagrees on present/absent""}"
+hard_dev,H10,"Mouth sores better today, can eat soft stuff again",missed,swallowing,"{""symptom"": ""swallowing"", ""present"": true, ""intensity"": ""mild"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+hard_dev,H11,"Skipped the zofran yesterday and paid for it, sick all evening",extra (not in gold),vomiting,,"{""present"": false, ""intensity"": ""none"", ""count"": null, ""evidence"": ""Skipped the zofran yesterday and paid for it""}"
+hard_dev,H12,Temp was 101.2 overnight with chills,number,fever,101.2,None
+hard_dev,H12,Temp was 101.2 overnight with chills,day,fever,-1,0
+hard_dev,H12,Temp was 101.2 overnight with chills,extra (not in gold),fever,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""Temp was 101.2 overnight with chills""}"
+hard_dev,H16,"can only do smoothies and broth now, throat on fire",intensity,swallowing,moderate,None
+hard_dev,H16,"can only do smoothies and broth now, throat on fire",intensity,pain,severe,None
+hard_dev,H18,I'm not sure if I threw up or just gagged on the mucus,missed,thick_saliva,"{""symptom"": ""thick_saliva"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+hard_dev,H18,I'm not sure if I threw up or just gagged on the mucus,wrong present/absent,vomiting,"{""symptom"": ""vomiting"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}","{""symptom"": ""vomiting"", ""present"": false, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null, ""evidence"": ""I'm not sure if I threw up or just gagged on the mucus"", ""confidence"": 0.5, ""method"": ""llm:qwen2.5:7b"", ""review_status"": ""needs_review"", ""review_reason"": ""low confidence (0.50); patient is unsure / hedged""}"
+hard_dev,H21,"Two days ago I vomited three times, since then nothing",count,vomiting,3,None
+hard_dev,H22,"Náuseas toda la mañana, vomité una vez",intensity,nausea,moderate,None
+hard_dev,H22,"Náuseas toda la mañana, vomité una vez",count,vomiting,1,None
+hard_dev,H23,"Used the magic mouthwash 4 times, sores still pretty bad",intensity,mouth_sores,moderate,None
+hard_dev,H24,"not nauseous, just exhausted and no appetite",missed,fatigue,"{""symptom"": ""fatigue"", ""present"": true, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",
+hard_dev,H30,"Thick spit all night, kept waking up choking on it",day,thick_saliva,-1,0
+hard_dev,H30,"Thick spit all night, kept waking up choking on it",extra (not in gold),swallowing,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""kept waking up choking on it""}"
+holdout,X01,"Stomach was churning all night, didn't actually throw up though",day,vomiting,0,-1
+holdout,X02,"Brought up my lunch, then again around 6",count,vomiting,2,None
+holdout,X06,"Food goes down like sandpaper, mostly protein shakes now",intensity,swallowing,moderate,None
+holdout,X06,"Food goes down like sandpaper, mostly protein shakes now",extra (not in gold),mouth_sores,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""Food goes down like sandpaper""}"
+holdout,X08,"Thermometer said 100.4 this morning, chills on and off",number,fever,100.4,None
+holdout,X08,"Thermometer said 100.4 this morning, chills on and off",extra (not in gold),fever,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""chills on and off""}"
+holdout,X09,"Didn't take the zofran because I felt ok, then got hit with nausea around noon yesterday",day,nausea,-1,0
+holdout,X10,"Saliva is like glue, keep spitting into a cup",extra (not in gold),dry_mouth,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""Saliva is like glue""}"
+holdout,X12,"No sores that I can see but the back of my throat burns, maybe 5 out of 10",number,pain,5,None
+holdout,X12,"No sores that I can see but the back of my throat burns, maybe 5 out of 10",extra (not in gold),pain,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""the back of my throat burns, maybe 5 out of 10""}"
+holdout,X15,"mouth totally parched, needed water every 10 min overnight",day,dry_mouth,-1,0
+holdout,X15,"mouth totally parched, needed water every 10 min overnight",extra (not in gold),thick_saliva,,"{""present"": true, ""intensity"": null, ""count"": null, ""evidence"": ""mouth totally parched""}"
+holdout,X16,"Mouth ulcers are excruciating, I couldn't eat a thing",extra (not in gold),swallowing,,"{""present"": true, ""intensity"": ""severe"", ""count"": null, ""evidence"": ""I couldn't eat a thing""}"
+holdout,X17,"had to stop eating halfway, felt like I was going to hurl",extra (not in gold),swallowing,,"{""present"": true, ""intensity"": ""moderate"", ""count"": null, ""evidence"": ""had to stop eating halfway""}"
+holdout,X19,"Vomited x3 yesterday afternoon, 0 today so far",wrong present/absent,vomiting,"{""symptom"": ""vomiting"", ""present"": true, ""intensity"": null, ""count"": 3, ""value_num"": null, ""relative_day"": -1, ""time_of_day"": ""afternoon""}","{""symptom"": ""vomiting"", ""present"": false, ""intensity"": null, ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null, ""evidence"": ""0 today so far"", ""confidence"": 0.9, ""method"": ""llm:qwen2.5:7b"", ""review_status"": ""needs_review"", ""review_reason"": ""rule parser disagrees on present/absent""}"
+holdout,X19,"Vomited x3 yesterday afternoon, 0 today so far",count,vomiting,3,None
+holdout,X19,"Vomited x3 yesterday afternoon, 0 today so far",day,vomiting,-1,0
+holdout,X19,"Vomited x3 yesterday afternoon, 0 today so far",missed,vomiting,"{""symptom"": ""vomiting"", ""present"": false, ""intensity"": ""none"", ""count"": null, ""value_num"": null, ""relative_day"": 0, ""time_of_day"": null}",

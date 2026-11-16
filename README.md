@@ -96,15 +96,17 @@ The overview answers "what changed since I last saw this patient?":
 
 ---
 
-## Evaluation (rule parser; run the LLM eval to fill in the second column)
+## Evaluation (rule parser vs local LLM, qwen2.5:7b)
 
-| | generated | hard_dev | holdout |
-|---|---|---|---|
-| F1 | 0.982 | 0.951 | **0.647** |
-| Recall | 0.964 | 0.951 | **0.478** |
-| Precision | 1.00 | 0.951 | 1.00 |
+| | F1 rules | F1 LLM | Recall rules | Recall LLM | Precision rules | Precision LLM |
+|---|---|---|---|---|---|---|
+| generated (106 reports) | 0.982 | 0.922 | 0.964 | 0.958 | 1.0 | 0.889 |
+| hard_dev (30 reports) | 0.951 | 0.891 | 0.951 | 0.902 | 0.951 | 0.881 |
+| holdout (20 reports) | **0.647** | **0.847** | **0.478** | **0.957** | 1.0 | 0.759 |
 
-The rule parser looks excellent on generated text because it shares vocabulary with the generator, and on hard_dev because its lexicon was tuned on those cases. On the untouched holdout it misses half of what patients say ("brought up my lunch", "cheeks are all blistered", "saliva is like glue"). That gap is the reason for the LLM, and the reason the rule parser is kept only as a cross-check and offline fallback.
+On generated text the rule parser beats the LLM on F1, recall and precision. It shares vocabulary with the generator, and on hard_dev its lexicon was tuned on those cases. On the untouched holdout it misses half of what patients say ("brought up my lunch", "cheeks are all blistered", "saliva is like glue"): recall 0.478 against 0.957 for the LLM, and F1 0.647 against 0.847. That gap is the reason for the LLM, and the reason the rule parser is kept only as a cross-check and offline fallback.
+
+The LLM is not simply better. Its precision is lower on all three sets (0.889, 0.881, 0.759): it adds symptoms the patient did not report (for example "swallowing" from "I couldn't eat a thing"), and on the holdout 29 mentions were predicted against 23 in the gold labels. It is also worse than rules at intensity (accuracy 0.49 generated, 0.286 hard_dev, 0.667 holdout, against 0.857, 0.875 and 1.0 for rules) and at vomiting counts on generated text (0.6 against 1.0). Both parsers get 0.0 on exact vomiting counts on the holdout. The holdout is small (20 reports, 23 gold mentions), so these differences are indicative and not statistically solid. The LLM prompt and the parser rules were not changed after seeing holdout results. LLM runs had 0 failures; the grounding check rejected 4 items on the generated set. Median latency was about 3 s per report.
 
 ---
 
